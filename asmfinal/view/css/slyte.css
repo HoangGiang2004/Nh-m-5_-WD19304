@@ -1,45 +1,28 @@
-* {
+/* * {
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 1.2vw;
-}
+} */
 
 .di {
     background-color: white;
 }
 
-.boxcenter {
-    width: 80%;
-    margin: 0 auto;
-}
 
 .row {
     float: left;
     width: 100%;
 }
 
-.mb {
-    margin-bottom: 20px;
-}
-
-.mb10 {
-    margin-bottom: 10px;
-}
 
 .mr {
-    margin-right: 2%;
+    margin-right: -10px;
 }
 
-.demo {
-    background-color: antiquewhite;
-    min-height: 100px;
-}
+
 
 .header {
-    background-color: aquamarine;
-    border: 1px #090 solid;
-    color: blue;
-    border-radius: 5px;
+     background-color: gray;  
 }
 
 .footer {
@@ -51,94 +34,44 @@
     padding: 20px;
 }
 
-.header h1 {
-    margin: 20px;
+.header h4 {
+    padding: 10px;
+    margin: 0px;
     text-align: center;
-    font-size: 2vw;
+    font-size: 13;
 }
 
 .menu {
     background-color: black;
     color: #ccc;
-    border-radius: 5px;
+   
 }
 
-.boxtrai {
-    float: left;
-    width: 74%;
-}
-
-.boxphai {
-    float: left;
-    width: 24%;
-}
-
-.boxtitle {
-    color: #333;
-    padding: 10px;
-    background-color: #eee;
-    border-top-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border: 1px #ccc solid;
-}
-
-.boxcontent {
-    border-left: 1px #ccc solid;
-    border-right: 1px #ccc solid;
-    border-bottom: 1px #ccc solid;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    min-height: 200px;
-    padding: 20px;
-}
-
-.boxcontent2 {
-    background-color: #eee;
-    border-left: 1px #ccc solid;
-    border-right: 1px #ccc solid;
-}
-
-.boxfooter {
-    padding: 10px;
-    background-color: #eee;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-left: 1px #ccc solid;
-    border-right: 1px #ccc solid;
-    border-bottom: 1px #ccc solid;
-}
 
 .banner {
-    min-height: 300px;
+    min-height: 400px;
     width: 100%;
     text-align: center;
 }
 
 .banner img {
-    height: 300px;
+    margin-top: 10px;
+    height: 400px;
 }
 
-.boxsp {
-    float: left;
-    width: 32%;
-    min-height: 300px;
-    border: 1px #eee solid;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 
-.boxsp a {
+ .boxsp a {
     transition: 0.5s;
     text-decoration: none;
     font-size: 1vw;
     text-align: center;
-}
+} 
 
 .boxsp a:hover {
     color: rgb(238, 74, 9);
     font-size: 0.9vw;
 }
+
 
 .row .p {
     text-align: center;
@@ -156,6 +89,8 @@
 
 .menu ul {
     padding: 20px;
+    margin-left: 475px;
+
 }
 
 .menu ul li {
@@ -246,13 +181,7 @@
     background-color: #ccc;
 }
 
-.searbox input[type="text"] {
-    width: 100%;
-    padding: 5px 10px;
-    background-color: #fff;
-    border: 1px #ccc solid;
-    border-radius: 5px;
-}
+
 
 .top10 img {
     width: 20%;
@@ -274,6 +203,21 @@
     color: rgb(233, 15, 15);
     text-decoration: underline;
     font-size: 0.9vw;
+}
+
+.boxcontent2.menudoc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxcontent2.menudoc {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -419,6 +363,8 @@
 }
 
 
+
+
 /* The dots/bullets/indicators */
 
 .dot {
@@ -495,3 +441,5 @@
 .binhluan table td:nth-child(3) {
     width: 30%;
 }
+
+
